@@ -70,8 +70,8 @@ observable distributions of the detected BBH events of each held-out epoch:
    epoch (§6.1). The identical operator is applied to mock events (with measurement-noise
    emulation) when building nulls, so the null distribution of every statistic is exact
    by construction regardless of this operator choice.
-2. Aggregate per observable per epoch: **Kolmogorov–Smirnov distance** and
-   **Anderson–Darling statistic** of `{PIT_i}` against uniformity.
+2. Aggregate per observable per epoch: **Kolmogorov-Smirnov distance** and
+   **Anderson-Darling statistic** of `{PIT_i}` against uniformity.
 3. **Null calibration (mandatory gate, §7):** null distributions of every statistic come
    from mock catalogs drawn from the frozen model itself, pushed through the same
    injection-based selection and measurement-noise emulation, **including finite-catalog
@@ -98,12 +98,12 @@ BBH events** per epoch.
 
 - **Predictive distribution:** `P(N | epoch) = (1/S) * sum_s Poisson(N; mu(Lambda_s))`
   over the S frozen hyperposterior samples, with `mu(Lambda_s) = R(Lambda_s) *
-  VT_epoch(Lambda_s)` where `VT_epoch` is the injection-estimated sensitive time–volume
+  VT_epoch(Lambda_s)` where `VT_epoch` is the injection-estimated sensitive time-volume
   computed **exactly** by the sensitivity release's documented estimator (§5, formula
   locked verbatim from the release notes).
 - **H2 is falsified (per epoch)** iff the observed count (Epoch 1: **84**; Epoch 2:
   **104**; §4) lies outside the **central 95%** of the predictive distribution
-  (2.5th–97.5th percentiles).
+  (2.5th-97.5th percentiles).
 - The numeric predictive distributions are computed by the locked formula and committed
   to `results/` before any H1 unblinding; as disclosed in the header, the observed
   counts are already public and known, so the H2 claim is "the frozen model + locked
@@ -113,7 +113,7 @@ BBH events** per epoch.
 
 ### Null results are wins
 
-"The 2021 model predicts the 2025–26 catalogs" is a publishable validation; "it does
+"The 2021 model predicts the 2025-26 catalogs" is a publishable validation; "it does
 not" is a publishable falsification, provided either claim survives the
 catalog-variance calibration. The durable artifact is the **cross-catalog
 predictive-scoring framework**, re-runnable on every future catalog.
@@ -169,7 +169,7 @@ files, not our re-derivation:
 | Epoch | Catalog pin | Event list (byte-pinned) | N |
 |---|---|---|---|
 | 1 (O4a, PRIMARY) | GWTC-**4.0** (GWOSC `GWTC-4.0`, 129 events; **not** 4.1) | `events_list_bbh_only.txt` from `o4a_event_list.tar` (10,240 B, md5 `35ed4499b4abf8deccd53668a335bbf5`, Zenodo 16911563); sha256 `d1edcc80447b628268902ede91ad047c070910c8fb41a3051fa55ed34861b31f` | **84** |
-| 2 (O4b, SECONDARY) | GWTC-5.0 (GWOSC `GWTC-5.0`, 161 events) | `GWTC5_BBH.txt` from `Event_list.tar.gz` (1,595 B, md5 `a4d3a105…`, Zenodo 20292639); sha256 `cdf3fd8f30ed842bbe9d2219616366da92eaa207fa83277fb2dfc77be5e9eb5a` | **104** |
+| 2 (O4b, SECONDARY) | GWTC-5.0 (GWOSC `GWTC-5.0`, 161 events) | `GWTC5_BBH.txt` from `Event_list.tar.gz` (1,595 B, md5 `a4d3a105...`, Zenodo 20292639); sha256 `cdf3fd8f30ed842bbe9d2219616366da92eaa207fa83277fb2dfc77be5e9eb5a` | **104** |
 
 Full event-name lists are reproduced verbatim in **Appendix A** (locked).
 
@@ -202,9 +202,9 @@ Full event-name lists are reproduced verbatim in **Appendix A** (locked).
 
 - **Epoch 1:** O4a injection set
   `samples-rpo4a_v2_20250503133839UTC-1366933504-23846400.hdf` (1,442,289,200 B, md5
-  `1cf34f97…`), Zenodo **16740117**.
+  `1cf34f97...`), Zenodo **16740117**.
 - **Epoch 2:** joint O4a+O4b injection set
-  `samples-rpo4ab-1366933504-55469568-clipped.hdf` (2,941,792,668 B, md5 `a1106c27…`),
+  `samples-rpo4ab-1366933504-55469568-clipped.hdf` (2,941,792,668 B, md5 `a1106c27...`),
   Zenodo **19500064**.
 - **Detection definition (locked, from the release notes' own example code):** an
   injection is detected iff `min_over_searches(<search>_far) < 1/yr`, the same FAR
@@ -251,7 +251,7 @@ Full event-name lists are reproduced verbatim in **Appendix A** (locked).
    uses the exact per-event samples the LVK population analysis used; `C00:Mixed` is the
    robustness variant. No per-event waveform choice is made by us, ever.
 
-## 7. Mock-calibration gate (blocking; unchanged from spec milestone W3–4)
+## 7. Mock-calibration gate (blocking; unchanged from spec milestone W3-4)
 
 Before any real-data score: mock catalogs drawn from the frozen model, pushed through
 the locked injection selection (§5) and a measurement-noise emulation, must recover
@@ -328,7 +328,7 @@ amendment, permitted only because it precedes all unblinding.
   likewise floor-waiting. Both are input-data acquisitions with no bearing on the
   firewall.
 - **Spot-checks performed pre-lock (firewall-compliant):** value-range sanity on the
-  *selection mixture* parquet only (input data: masses 1.0–999 M☉, z ≤ 1.90, |spin
+  *selection mixture* parquet only (input data: masses 1.0-999 M☉, z ≤ 1.90, |spin
   components| < 1, weights positive, no NaNs; noted sentinel −1.0 in
   `o3_pycbc_bbh_p_astro`, irrelevant under the FAR-only detection rule); **structure-only**
   check on one O4a PE parquet (16 float32 columns as specified, 41,712 rows).
@@ -354,7 +354,7 @@ amendment, permitted only because it precedes all unblinding.
 See `docs/related_work.md` (maintained). Anchors: Miller et al. arXiv:2604.06090
 (in-sample PPC limitations, the out-of-sample complement); arXiv:2603.00239
 (catalog variance, built into the nulls); LVK GWTC-4.0 population paper 2508.18083;
-GWTC-5.0 papers 2605.27223–27227; the GWTC-4 rapid-response in-sample wave (10 papers
+GWTC-5.0 papers 2605.27223-27227; the GWTC-4 rapid-response in-sample wave (10 papers
 listed in related_work.md). **Prior-art review run 2026-06-10 at lock** (arXiv API:
 astro-ph.HE/gr-qc, GWTC + out-of-sample / posterior-predictive / forecast / held-out /
 cross-validation / frozen; all entries since 2026-06-01 reviewed): GWTC-5 has only
@@ -366,7 +366,7 @@ predict-then-score test against GWTC-4 or GWTC-5 exists in the literature.
 ## 13. Known risks (declared at lock)
 
 1. **Concurrent-publication timeline:** GWTC-5.0 was released 2026-05-26; a
-   rapid-response reanalysis wave like GWTC-4's (5+ papers in 2–12 weeks) is expected.
+   rapid-response reanalysis wave like GWTC-4's (5+ papers in 2-12 weeks) is expected.
    The pilot gate is budgeted in weeks, not months.
 2. **PE-prior/waveform mismatch** is the main technical validity threat; §6 is the
    locked handling; the honesty pass (§8.7) must consider it before any misspecification

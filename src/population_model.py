@@ -1,4 +1,4 @@
-"""The frozen O3 population model (PRE_REGISTRATION.md §2–§3).
+"""The frozen O3 population model (PRE_REGISTRATION.md §2-§3).
 
 Loads the GWTC-3 Power-Law+Peak + iid-spin + power-law-redshift hyperposterior
 *as released* (Zenodo 5655785, member

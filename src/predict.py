@@ -1,4 +1,4 @@
-"""Posterior-predictive machinery (PRE_REGISTRATION.md §5–§6, §1).
+"""Posterior-predictive machinery (PRE_REGISTRATION.md §5-§6, §1).
 
 Frozen hyperposterior draws -> (a) the predicted detected-event-count distribution
 per epoch (H2) and (b) detected-population predictive distributions in observable

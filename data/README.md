@@ -77,8 +77,8 @@ record**; the corrected training record is 5655785 (spec note stands).
   `gwtc4_pop/o4a_event_list/`: **84 BBH events** (`events_list_bbh_only.txt`, FAR < 1/yr)
   with the per-event PE label the LVK analysis used (**41 × `C00:Mixed`,
   43 × `C00:NRSur7dq4`**); full-spectrum list = 76 events.
-- **Per-event posteriors:** 86 `IGWN-GWTC4p0-…-combined_PEDataRelease.hdf5` files
-  (14.31 GB nominal, 53–575 MB each; per-file md5s + file ids in
+- **Per-event posteriors:** 86 `IGWN-GWTC4p0-...-combined_PEDataRelease.hdf5` files
+  (14.31 GB nominal, 53-575 MB each; per-file md5s + file ids in
   `zenodo_listings/16053484.json`). Acquired **one at a time**: download → extract the
   mass/spin/redshift/distance column subset (float32, zstd parquet) for **both** the
   LVK-used label and `C00:Mixed` → delete the HDF5. Columns wanted:
@@ -104,8 +104,8 @@ deleted after extraction.
 
 | File | Size | md5 | Zenodo file id | Rows |
 |---|---|---|---|---|
-| `samples-rpo4a_v2_20250503133839UTC-1366933504-23846400.hdf` (O4a-only, rec 16740117) | 1,442,289,200 B | `1cf34f97…` | `8247cd41-9b7f-426f-8090-584374a19815` | 1,499,244 |
-| `mixture-semi_o1_o2-real_o3-cartesian_spins_20250503134659UTC.hdf` (O3-era cumulative, rec 16740128) | 257,339,480 B | `e5d860f3…` | `5f995a1e-689e-4f3f-a95e-e7bc81f1f239` | 919,033 |
+| `samples-rpo4a_v2_20250503133839UTC-1366933504-23846400.hdf` (O4a-only, rec 16740117) | 1,442,289,200 B | `1cf34f97...` | `8247cd41-9b7f-426f-8090-584374a19815` | 1,499,244 |
+| `mixture-semi_o1_o2-real_o3-cartesian_spins_20250503134659UTC.hdf` (O3-era cumulative, rec 16740128) | 257,339,480 B | `e5d860f3...` | `5f995a1e-689e-4f3f-a95e-e7bc81f1f239` | 919,033 |
 
 Output: `data/derived/selection/o4a_injections.parquet`,
 `data/derived/selection/o1o2o3_mixture_cartesian.parquet` +

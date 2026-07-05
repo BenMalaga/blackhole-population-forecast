@@ -35,7 +35,7 @@ def main() -> None:
               f"{g['members_seen_count']} seen; {g['compressed_bytes_read']/1e9:.2f} GB "
               f"compressed read; early_stop={g['early_stop']}")
         for e in g["extracted"]:
-            print(f"   {e['member']} ({e['size']/1e6:.1f} MB) sha256={e['sha256'][:16]}…")
+            print(f"   {e['member']} ({e['size']/1e6:.1f} MB) sha256={e['sha256'][:16]}...")
     for sub in sorted(p for p in DATA.iterdir() if p.is_dir()):
         print(f"data/{sub.name}: {tree_bytes(sub)/1e6:.1f} MB")
     print(f"TOTAL data/: {tree_bytes(DATA)/1e9:.3f} GB | .venv: "

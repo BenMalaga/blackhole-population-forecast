@@ -82,7 +82,7 @@ def require_locked_prereg() -> str:
 # ===================================================================== statistics
 
 def ks_uniform(pits: np.ndarray) -> float:
-    """One-sample Kolmogorov–Smirnov distance of ``pits`` against U(0,1)."""
+    """One-sample Kolmogorov-Smirnov distance of ``pits`` against U(0,1)."""
     u = np.sort(np.asarray(pits, dtype=float))
     n = len(u)
     if n == 0:
@@ -92,7 +92,7 @@ def ks_uniform(pits: np.ndarray) -> float:
 
 
 def ad_uniform(pits: np.ndarray) -> float:
-    """One-sample Anderson–Darling statistic of ``pits`` against U(0,1)."""
+    """One-sample Anderson-Darling statistic of ``pits`` against U(0,1)."""
     eps = 1e-12
     u = np.clip(np.sort(np.asarray(pits, dtype=float)), eps, 1 - eps)
     n = len(u)
