@@ -7,7 +7,7 @@ frozen-fit predictive-scoring work of the kind described here.*
 
 This project asks a question that is logically prior to most current work on
 gravitational-wave populations: does the binary-black-hole (BBH) population model the
-LIGO–Virgo–KAGRA (LVK) collaboration fit to O3-era data *predict*, not merely describe,
+LIGO-Virgo-KAGRA (LVK) collaboration fit to O3-era data *predict*, not merely describe,
 the catalogs that came after it? We freeze the GWTC-3 Power-Law+Peak population fit
 (released 2021), forward-model the detectable BBH population of two fully held-out
 epochs (O4a/GWTC-4.0 and O4b/GWTC-5.0) through the public sensitivity injections, and
@@ -107,7 +107,7 @@ mass-segregated subpopulations (arXiv:2509.15646), trimodality in chirp mass
 (arXiv:2510.07573), flexible-mixture inference over 150 events (arXiv:2510.25579), and
 binned-Gaussian-process characterizations of the 35 solar-mass feature
 (arXiv:2511.22093). In the 2026 window most relevant to this project: Farah, Vijaykumar
-& Fishbach (arXiv:2601.03456, 2026-01-06) attribute the observed redshift–effective-spin
+& Fishbach (arXiv:2601.03456, 2026-01-06) attribute the observed redshift-effective-spin
 correlation to a steeply evolving hierarchical-merger rate; data-driven subpopulation
 searches with dimensionality reduction (arXiv:2603.06566, 2026-03); Gennari, Bertheas &
 Tamanini (*Emergent structure in the binary black hole mass distribution and
@@ -176,7 +176,7 @@ cross-catalog scoring framework that can be re-run on every future catalog relea
 - LVK Collaboration, *GWTC-4.0: Population Properties of Merging Compact Binaries*,
   arXiv:2508.18083 (2025-08-25).
 - A. M. Farah, A. Vijaykumar, M. Fishbach, *The steep redshift evolution of the
-  hierarchical binary black hole merger rate may cause the z–χeff correlation*,
+  hierarchical binary black hole merger rate may cause the z-χeff correlation*,
   arXiv:2601.03456 (2026-01-06).
 - N. E. Wolfe, M. Mould, J. Veitch, S. Vitale, *Neural Bayesian updates to populations
   with growing gravitational-wave catalogs*, arXiv:2602.20277 (2026-02-23).
