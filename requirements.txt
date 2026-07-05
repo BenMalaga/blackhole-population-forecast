@@ -1,0 +1,34 @@
+# Fetch/extraction stack, PINNED (installed in .venv on 2026-06-10, Python 3.14.2;
+# these four are all src/fetch_data.py needs).
+numpy==2.4.6
+h5py==3.16.0
+pandas==3.0.3
+pyarrow==24.0.0
+
+# Science stack, LOCKED at pre-registration lock (PRE_REGISTRATION.md §9, 2026-06-10;
+# versions verified live on PyPI that day). Installed at analysis-step-2 start
+# (Stage 3, 2026-06-10 evening).
+gwpopulation==1.3.1   # hierarchical population inference (core)
+bilby==2.8.0          # samplers/priors (gwpopulation dependency chain)
+popsummary==0.1.0     # read GWTC-4/5 population (hyperposterior) releases
+
+# pesummary==1.6.4: LOCKED version per pre-reg §9 but INSTALL DEFERRED (Stage-3
+# decision, 2026-06-10): a pip dry-run showed pesummary 1.6.4 forces a numpy
+# downgrade 2.4.6 -> 2.3.5 (breaking the pinned fetch stack above) and drags in
+# lalsuite 7.26.14 (+gwpy/gracedb chain, ~0.5+ GB) that the scoring pipeline does
+# not need (per-event PE subsets are already blind-extracted parquet via h5py).
+# Install it (in its own resolution step, accepting its numpy pin in a refreshed
+# lockstep) only if a future stage must re-read raw PE release HDF5 beyond what
+# h5py handles. Toolchain provenance note, not statistical freedom.
+
+# Utility deps: exact versions recorded at install time (PRE_REGISTRATION.md §9:
+# provenance, not statistical freedom). Installed 2026-06-10:
+scipy==1.17.1
+astropy==7.2.0
+matplotlib==3.10.9
+tqdm==4.68.2
+pytest==9.0.3         # test harness (synthetic-data pipeline validation)
+# Transitive science pins of note (resolved by pip on 2026-06-10):
+#   wcosmo 0.5.4 · cached_interpolate 0.4.0 · bilby.cython 0.5.4 · dynesty 3.0.0
+#   corner 2.2.3 · emcee 3.1.6 · astropy-iers-data 0.2026.6.8.17.49.5
+# Free Colab GPU recommended for the population reweighting if 8 GB RAM binds.

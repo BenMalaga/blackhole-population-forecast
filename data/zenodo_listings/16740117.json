@@ -1,0 +1,129 @@
+{
+ "doi": "10.5281/zenodo.16740117",
+ "fetched_utc": "2026-06-10T23:37:44Z",
+ "files": [
+  {
+   "checksum": "md5:8ee18697e947c880764f78caa986e55d",
+   "file_id": "c0b1ae0c-dfc8-4b01-9477-c457c2445fd4",
+   "key": "gwtc-4_o4a_sensitivity-estimates.md",
+   "size": 15148
+  },
+  {
+   "checksum": "md5:7883ee38d8bfdd964105a18afa2cf012",
+   "file_id": "2613f8c0-8687-4222-b049-5aca890abb6c",
+   "key": "psd-O4-2023_05_v1-H.txt.gz",
+   "size": 438579
+  },
+  {
+   "checksum": "md5:437df6de342cb308c0b516ea02d82206",
+   "file_id": "2f54d76f-8b54-450d-a297-e9148a9d000e",
+   "key": "psd-O4-2023_05_v1-L.txt.gz",
+   "size": 438018
+  },
+  {
+   "checksum": "md5:e022e53caff6d9aea4322fc1c22bdd2a",
+   "file_id": "2278d14a-8021-475f-b8ae-ec5c2ba63936",
+   "key": "psd-O4-2023_06_v1-H.txt.gz",
+   "size": 438422
+  },
+  {
+   "checksum": "md5:73eb3114421dd3d1de58620208a47140",
+   "file_id": "bf95fc28-319b-4870-9239-4f43e0cfc736",
+   "key": "psd-O4-2023_06_v1-L.txt.gz",
+   "size": 437910
+  },
+  {
+   "checksum": "md5:a8f2e9506e65a0dab2dc82e56d853fe5",
+   "file_id": "391b3f95-f0bd-489e-9657-139424058262",
+   "key": "psd-O4-2023_07_v1-H.txt.gz",
+   "size": 438602
+  },
+  {
+   "checksum": "md5:bf15962fdaaa0b34e147303a60442e67",
+   "file_id": "ab91bb63-7344-4948-af8b-8bea005dd13d",
+   "key": "psd-O4-2023_07_v1-L.txt.gz",
+   "size": 438038
+  },
+  {
+   "checksum": "md5:da41e4dfd6ef631635fdafc5f01e6892",
+   "file_id": "dd8a21a3-78fb-4740-a242-514c47804b94",
+   "key": "psd-O4-2023_08_v1-H.txt.gz",
+   "size": 438392
+  },
+  {
+   "checksum": "md5:1a8f3c121c5c986e83fbad2d21efb5cf",
+   "file_id": "b8f22345-bc67-4649-acd2-1accae0d2477",
+   "key": "psd-O4-2023_08_v1-L.txt.gz",
+   "size": 437798
+  },
+  {
+   "checksum": "md5:6421f7e503cd32ecf18a213f0a2af706",
+   "file_id": "dfd8278a-4f00-46ec-91ec-8bc5b4ea4659",
+   "key": "psd-O4-2023_09_v1-H.txt.gz",
+   "size": 438607
+  },
+  {
+   "checksum": "md5:930c83b64c935066cda7d9a03308362d",
+   "file_id": "b7221872-9f7b-4b61-9bda-fb8205cfb752",
+   "key": "psd-O4-2023_09_v1-L.txt.gz",
+   "size": 437738
+  },
+  {
+   "checksum": "md5:669392337d7464953c04e25de6b98cb2",
+   "file_id": "8dd1245c-dc44-4424-bbd5-e297faf56984",
+   "key": "psd-O4-2023_10_v1-H.txt.gz",
+   "size": 438170
+  },
+  {
+   "checksum": "md5:e0f4982083673cda67f1d0dc1da4488c",
+   "file_id": "1b77f6c6-2d92-4f00-a8c3-4a629bf5af1b",
+   "key": "psd-O4-2023_10_v1-L.txt.gz",
+   "size": 437985
+  },
+  {
+   "checksum": "md5:f4f3f287a470fa4e03911cab78227cbd",
+   "file_id": "750093c9-1cdf-4fd7-b67d-8e45a9379bb1",
+   "key": "psd-O4-2023_11_v1-H.txt.gz",
+   "size": 437062
+  },
+  {
+   "checksum": "md5:2467ffac43550b8db795e0e8739c3d13",
+   "file_id": "0ed29e30-777f-4127-b6d3-76d36fb439f2",
+   "key": "psd-O4-2023_11_v1-L.txt.gz",
+   "size": 437988
+  },
+  {
+   "checksum": "md5:e82cb2ae8ee2ecd97cf2999390a7dc97",
+   "file_id": "8aaae448-6171-4ada-a7a6-d65df39eb261",
+   "key": "psd-O4-2023_12_v1-H.txt.gz",
+   "size": 438982
+  },
+  {
+   "checksum": "md5:0491d6d6f06448932abe4020d28d6400",
+   "file_id": "6f25c9fb-7cb4-4ee8-9603-4645622657ab",
+   "key": "psd-O4-2023_12_v1-L.txt.gz",
+   "size": 438416
+  },
+  {
+   "checksum": "md5:da813ef229b0a4c5e2725a94b4768857",
+   "file_id": "186d75aa-009d-4804-b1d3-e84efc7c39fd",
+   "key": "psd-O4-2024_01_v1-H.txt.gz",
+   "size": 438806
+  },
+  {
+   "checksum": "md5:bae45dd45b859dce09dca21158587180",
+   "file_id": "c327d0ef-27f4-4e9c-9a79-7def32940882",
+   "key": "psd-O4-2024_01_v1-L.txt.gz",
+   "size": 439075
+  },
+  {
+   "checksum": "md5:1cf34f975ebbb3c8cce461ee26467cd6",
+   "file_id": "8247cd41-9b7f-426f-8090-584374a19815",
+   "key": "samples-rpo4a_v2_20250503133839UTC-1366933504-23846400.hdf",
+   "size": 1442289200
+  }
+ ],
+ "publication_date": "2025-08-04",
+ "record": "16740117",
+ "title": "GWTC-4.0: O4a Search Sensitivity Estimates"
+}

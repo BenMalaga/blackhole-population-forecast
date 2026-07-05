@@ -1,0 +1,69 @@
+{
+ "doi": "10.5281/zenodo.16911563",
+ "fetched_utc": "2026-06-10T23:37:46Z",
+ "files": [
+  {
+   "checksum": "md5:2f991c0d9ab6e9fa3af155b7ce88d10b",
+   "file_id": "aab0d48a-08f7-47ee-bb7b-95f48e29b0d4",
+   "key": "README.md",
+   "size": 14274
+  },
+  {
+   "checksum": "md5:8ff1275b5f6cf1b9d54313feb14111f1",
+   "file_id": "b60d3891-f165-4a91-8234-01dd43d18f33",
+   "key": "analyses_AllCBC.tar",
+   "size": 2937354240
+  },
+  {
+   "checksum": "md5:ba554251bacbda3979206ba673c644f5",
+   "file_id": "e9d4de9d-1643-4026-8c59-66793c02ddbd",
+   "key": "analyses_BBH.tar",
+   "size": 7465451520
+  },
+  {
+   "checksum": "md5:9387253ba091e83a993a4ee5cc2a31c1",
+   "file_id": "78f82eb2-afe5-41a3-ac53-1f7b51a0ee7b",
+   "key": "analyses_BGP.tar",
+   "size": 23528663040
+  },
+  {
+   "checksum": "md5:9ecf9d7e1de1e734a71baa149c2b10bf",
+   "file_id": "d6d3024e-1bd3-4c23-8ffe-116da5e3731e",
+   "key": "analyses_NS.tar",
+   "size": 1507041280
+  },
+  {
+   "checksum": "md5:a072c5e11b8dc3fa6dc9f9d7f78cada6",
+   "file_id": "b8cdd706-dada-4855-b1e4-983f6711a6a4",
+   "key": "download_gwtc3_data.py",
+   "size": 375
+  },
+  {
+   "checksum": "md5:493939a8bab53734d1a0295103d46071",
+   "file_id": "ae624a80-0613-48f8-aab6-e861a51a06a6",
+   "key": "figure_scripts.tar",
+   "size": 112640
+  },
+  {
+   "checksum": "md5:5904e867fd898b75a1afeab0eb7a7cc7",
+   "file_id": "38607f5a-5411-4e15-95ce-e76346b26591",
+   "key": "figures.tar",
+   "size": 8693760
+  },
+  {
+   "checksum": "md5:35ed4499b4abf8deccd53668a335bbf5",
+   "file_id": "02bdee5e-a5d8-42eb-a762-78f6d752fed5",
+   "key": "o4a_event_list.tar",
+   "size": 10240
+  },
+  {
+   "checksum": "md5:132abda134481e2fc6d20da2a5920f1a",
+   "file_id": "2c3dbd9d-c5b7-4888-9faa-7e4ad0e8256c",
+   "key": "popsummary_tutorial.ipynb",
+   "size": 20020
+  }
+ ],
+ "publication_date": "2025-08-26",
+ "record": "16911563",
+ "title": "GWTC-4.0: Population Properties of Merging Compact Binaries"
+}

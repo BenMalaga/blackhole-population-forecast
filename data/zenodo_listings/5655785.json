@@ -1,0 +1,45 @@
+{
+ "doi": "10.5281/zenodo.5655785",
+ "fetched_utc": "2026-06-10T23:37:42Z",
+ "files": [
+  {
+   "checksum": "md5:3c51561b5d8624210685b179c7d1f6ca",
+   "file_id": "e5e046ef-be9a-4199-b8b2-1f0de620ad3c",
+   "key": "GWTC-3-population-data.tar.gz",
+   "size": 10070439649
+  },
+  {
+   "checksum": "md5:5c9f33a461948beba75f773dab59a601",
+   "file_id": "32ffb55a-bdc5-4648-873a-53973b5fc270",
+   "key": "PowerLaw_Peak_DipBreak_Spline_Tutorial.html",
+   "size": 10631837
+  },
+  {
+   "checksum": "md5:02489cc1cb8254dec5a1bb564b6ac059",
+   "file_id": "12ca408b-cec2-48cc-a7b4-8341e80c9bcc",
+   "key": "README.md",
+   "size": 5140
+  },
+  {
+   "checksum": "md5:9233e90938554175a05fb3e4e6afb309",
+   "file_id": "7cc60054-f2e9-4e1d-8900-f788b2c188e4",
+   "key": "paper_figures.tar.gz",
+   "size": 9127012
+  },
+  {
+   "checksum": "md5:09e6dd7ea79582bda70f93fcba971926",
+   "file_id": "5655ea1b-4ad3-488d-8484-cf7c5b2039e6",
+   "key": "py_requirements.txt",
+   "size": 115
+  },
+  {
+   "checksum": "md5:bd6f9984cc762cc44ff86f0520ce56d1",
+   "file_id": "f96cc8d4-e55d-470d-bd91-fbb888ce36bd",
+   "key": "table_data.tar.gz",
+   "size": 4917
+  }
+ ],
+ "publication_date": "2021-11-05",
+ "record": "5655785",
+ "title": "The population of merging compact binaries inferred using gravitational waves through GWTC-3 - Data release"
+}

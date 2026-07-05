@@ -1,0 +1,45 @@
+{
+ "doi": "10.5281/zenodo.20292639",
+ "fetched_utc": "2026-06-10T23:37:48Z",
+ "files": [
+  {
+   "checksum": "md5:a4d3a1054cccfca5d72b58f5673dcf0b",
+   "file_id": "98679140-e4e8-442a-89ea-18f7cd4698d5",
+   "key": "Event_list.tar.gz",
+   "size": 1595
+  },
+  {
+   "checksum": "md5:aa74bf684634339525c38bd7a4e9c8e3",
+   "file_id": "1850e586-76d9-42ff-bb73-4a44ec109e2f",
+   "key": "GWTC-4.0-aux.tar.gz",
+   "size": 352298924
+  },
+  {
+   "checksum": "md5:2f3245f1c5cf48be80d16fc64bdb8114",
+   "file_id": "0bfdcf22-56c0-4b11-8487-c1da78cbca46",
+   "key": "README.md",
+   "size": 2499
+  },
+  {
+   "checksum": "md5:ec2a9164398501d007ba12fa11d71481",
+   "file_id": "ce413b19-8108-44e9-8d66-543dfb330baa",
+   "key": "figures.tar.gz",
+   "size": 8071382
+  },
+  {
+   "checksum": "md5:d6ca03d47767d0e522f3c1647bf7e14e",
+   "file_id": "202e084e-9b53-4c5e-a5a0-c9e6d2d96a6a",
+   "key": "popsummary_files.tar.gz",
+   "size": 25027460133
+  },
+  {
+   "checksum": "md5:f6e5d711b54e8059dc1533835785bd88",
+   "file_id": "b423a162-db7f-4072-9703-1d4776ef1cc9",
+   "key": "scripts.tar.gz",
+   "size": 72447
+  }
+ ],
+ "publication_date": "2026-05-26",
+ "record": "20292639",
+ "title": "GWTC-5.0: Population Properties of Merging Compact Binaries"
+}

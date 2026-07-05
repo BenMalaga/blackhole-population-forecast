@@ -1,0 +1,27 @@
+{
+ "doi": "10.5281/zenodo.19500064",
+ "fetched_utc": "2026-06-10T23:37:47Z",
+ "files": [
+  {
+   "checksum": "md5:457b02eca6088eb8cc23a97f37b01f8b",
+   "file_id": "c2cf6ebf-1031-4e32-9eb6-6147fedccc6e",
+   "key": "gwtc-5_o4ab_sensitivity-estimates.md",
+   "size": 16876
+  },
+  {
+   "checksum": "md5:e0261ab2b03d19a02a498bf8df052cfe",
+   "file_id": "d4aa7e29-4960-4b6a-bb83-53c73858f371",
+   "key": "psds-o4ab.tar.gz",
+   "size": 21560242
+  },
+  {
+   "checksum": "md5:a1106c27ec6cfd906231613523f7b174",
+   "file_id": "567694de-3cbe-453c-9857-1f6b8cd07740",
+   "key": "samples-rpo4ab-1366933504-55469568-clipped.hdf",
+   "size": 2941792668
+  }
+ ],
+ "publication_date": "2026-04-10",
+ "record": "19500064",
+ "title": "GWTC-5.0: O4a+O4b Search Sensitivity Estimates"
+}

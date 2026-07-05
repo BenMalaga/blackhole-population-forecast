@@ -1,0 +1,743 @@
+[
+ {
+  "all_fields": [
+   {
+    "dtype": "float64",
+    "name": "mass1_source"
+   },
+   {
+    "dtype": "float64",
+    "name": "mass2_source"
+   },
+   {
+    "dtype": "float64",
+    "name": "luminosity_distance"
+   },
+   {
+    "dtype": "float64",
+    "name": "redshift"
+   },
+   {
+    "dtype": "float64",
+    "name": "spin1x"
+   },
+   {
+    "dtype": "float64",
+    "name": "spin1y"
+   },
+   {
+    "dtype": "float64",
+    "name": "spin1z"
+   },
+   {
+    "dtype": "float64",
+    "name": "spin2x"
+   },
+   {
+    "dtype": "float64",
+    "name": "spin2y"
+   },
+   {
+    "dtype": "float64",
+    "name": "spin2z"
+   },
+   {
+    "dtype": "float64",
+    "name": "inclination"
+   },
+   {
+    "dtype": "float64",
+    "name": "time_geocenter"
+   },
+   {
+    "dtype": "float64",
+    "name": "dluminosity_distance_dredshift"
+   },
+   {
+    "dtype": "float64",
+    "name": "lnpdraw_mass1_source_mass2_source_redshift_spin1x_spin1y_spin1z_spin2x_spin2y_spin2z"
+   },
+   {
+    "dtype": "float64",
+    "name": "lnpdraw_inclination"
+   },
+   {
+    "dtype": "float64",
+    "name": "estimated_optimal_snr_H"
+   },
+   {
+    "dtype": "float64",
+    "name": "estimated_optimal_snr_L"
+   },
+   {
+    "dtype": "float64",
+    "name": "estimated_optimal_snr_V"
+   },
+   {
+    "dtype": "float64",
+    "name": "estimated_optimal_snr_net"
+   },
+   {
+    "dtype": "float64",
+    "name": "semianalytic_observed_phase_maximized_snr_net"
+   },
+   {
+    "dtype": "float64",
+    "name": "o3_cwb_far"
+   },
+   {
+    "dtype": "float64",
+    "name": "o3_gstlal_far"
+   },
+   {
+    "dtype": "float64",
+    "name": "o3_mbta_far"
+   },
+   {
+    "dtype": "float64",
+    "name": "o3_pycbc_bbh_far"
+   },
+   {
+    "dtype": "float64",
+    "name": "o3_pycbc_hyperbank_far"
+   },
+   {
+    "dtype": "float64",
+    "name": "o3_cwb_p_astro"
+   },
+   {
+    "dtype": "float64",
+    "name": "o3_gstlal_p_astro"
+   },
+   {
+    "dtype": "float64",
+    "name": "o3_mbta_p_astro"
+   },
+   {
+    "dtype": "float64",
+    "name": "o3_pycbc_bbh_p_astro"
+   },
+   {
+    "dtype": "float64",
+    "name": "o3_pycbc_hyperbank_p_astro"
+   },
+   {
+    "dtype": "float64",
+    "name": "o3_cwb_ranking_statistic"
+   },
+   {
+    "dtype": "float64",
+    "name": "o3_mbta_ranking_statistic"
+   },
+   {
+    "dtype": "float64",
+    "name": "o3_pycbc_bbh_ranking_statistic"
+   },
+   {
+    "dtype": "float64",
+    "name": "o3_pycbc_hyperbank_ranking_statistic"
+   },
+   {
+    "dtype": "float64",
+    "name": "weights"
+   }
+  ],
+  "attrs_root": {
+   "num_accepted": 919033,
+   "searches": [
+    "o3_cwb",
+    "o3_gstlal",
+    "o3_mbta",
+    "o3_pycbc_bbh",
+    "o3_pycbc_hyperbank"
+   ],
+   "total_analysis_time": 43151200.0,
+   "total_generated": 697580768.0
+  },
+  "attrs_table_parent": {},
+  "columns_kept": [
+   "dluminosity_distance_dredshift",
+   "lnpdraw_inclination",
+   "lnpdraw_mass1_source_mass2_source_redshift_spin1x_spin1y_spin1z_spin2x_spin2y_spin2z",
+   "luminosity_distance",
+   "mass1_source",
+   "mass2_source",
+   "o3_cwb_far",
+   "o3_cwb_p_astro",
+   "o3_gstlal_far",
+   "o3_gstlal_p_astro",
+   "o3_mbta_far",
+   "o3_mbta_p_astro",
+   "o3_pycbc_bbh_far",
+   "o3_pycbc_bbh_p_astro",
+   "o3_pycbc_hyperbank_far",
+   "o3_pycbc_hyperbank_p_astro",
+   "redshift",
+   "semianalytic_observed_phase_maximized_snr_net",
+   "spin1x",
+   "spin1y",
+   "spin1z",
+   "spin2x",
+   "spin2y",
+   "spin2z",
+   "weights"
+  ],
+  "extracted_utc": "2026-06-11T00:13:20Z",
+  "n_columns_kept": 25,
+  "n_fields_total": 35,
+  "n_rows": 919033,
+  "parquet": "data/derived/selection/o1o2o3_mixture_cartesian.parquet",
+  "parquet_bytes": 66605384,
+  "parquet_sha256": "70556812fdbb52403e178ef084b558d3af5a5c54b72b65ee104319442d80ddae",
+  "source_bytes": 257339480,
+  "source_file": "mixture-semi_o1_o2-real_o3-cartesian_spins_20250503134659UTC.hdf",
+  "source_md5": "e5d860f3f45863a657401b64ec31b5e8",
+  "table_dataset": "events",
+  "tag": "o1o2o3_mixture_cartesian",
+  "zenodo_file_id": "5f995a1e-689e-4f3f-a95e-e7bc81f1f239",
+  "zenodo_record": "16740128"
+ },
+ {
+  "all_fields": [
+   {
+    "dtype": "float64",
+    "name": "fref"
+   },
+   {
+    "dtype": "float64",
+    "name": "lnpdraw_z"
+   },
+   {
+    "dtype": "float64",
+    "name": "snr_flow"
+   },
+   {
+    "dtype": "float64",
+    "name": "polarization"
+   },
+   {
+    "dtype": "float64",
+    "name": "mass1_detector"
+   },
+   {
+    "dtype": "float64",
+    "name": "lnpdraw_declination"
+   },
+   {
+    "dtype": "float64",
+    "name": "spin2x"
+   },
+   {
+    "dtype": "float64",
+    "name": "dluminosity_distance_dredshift"
+   },
+   {
+    "dtype": "float64",
+    "name": "spin1x"
+   },
+   {
+    "dtype": "float64",
+    "name": "lnpdraw_eccentricity"
+   },
+   {
+    "dtype": "float64",
+    "name": "eccentricity"
+   },
+   {
+    "dtype": "float64",
+    "name": "time_geocenter"
+   },
+   {
+    "dtype": "float64",
+    "name": "spin2z"
+   },
+   {
+    "dtype": "float64",
+    "name": "observed_snr_net"
+   },
+   {
+    "dtype": "float64",
+    "name": "mass2_source"
+   },
+   {
+    "dtype": "float64",
+    "name": "lnpdraw_spin2_magnitude"
+   },
+   {
+    "dtype": "float64",
+    "name": "declination"
+   },
+   {
+    "dtype": "float64",
+    "name": "spin2_polar_angle"
+   },
+   {
+    "dtype": "float64",
+    "name": "mass1_source"
+   },
+   {
+    "dtype": "float64",
+    "name": "spin2_magnitude"
+   },
+   {
+    "dtype": "float64",
+    "name": "time_H"
+   },
+   {
+    "dtype": "float64",
+    "name": "q"
+   },
+   {
+    "dtype": "float64",
+    "name": "snr_H"
+   },
+   {
+    "dtype": "float64",
+    "name": "waveform_flow"
+   },
+   {
+    "dtype": "float64",
+    "name": "spin1_polar_angle"
+   },
+   {
+    "dtype": "float64",
+    "name": "observed_phase_maximized_snr_net"
+   },
+   {
+    "dtype": "float64",
+    "name": "observed_snr_H"
+   },
+   {
+    "dtype": "float64",
+    "name": "lnpdraw_spin1_magnitude"
+   },
+   {
+    "dtype": "float64",
+    "name": "spin1_azimuthal_angle"
+   },
+   {
+    "dtype": "float64",
+    "name": "lnpdraw_spin2_azimuthal_angle"
+   },
+   {
+    "dtype": "float64",
+    "name": "snr_net"
+   },
+   {
+    "dtype": "float64",
+    "name": "lnpdraw_mass1_source"
+   },
+   {
+    "dtype": "float64",
+    "name": "mass2_detector"
+   },
+   {
+    "dtype": "float64",
+    "name": "spin1_magnitude"
+   },
+   {
+    "dtype": "float64",
+    "name": "spin1z"
+   },
+   {
+    "dtype": "float64",
+    "name": "waveform_tref"
+   },
+   {
+    "dtype": "float64",
+    "name": "lnpdraw_spin1_azimuthal_angle"
+   },
+   {
+    "dtype": "float64",
+    "name": "spin2y"
+   },
+   {
+    "dtype": "float64",
+    "name": "z"
+   },
+   {
+    "dtype": "float64",
+    "name": "lnpdraw_polarization"
+   },
+   {
+    "dtype": "float64",
+    "name": "time_L"
+   },
+   {
+    "dtype": "float64",
+    "name": "chi_p"
+   },
+   {
+    "dtype": "float64",
+    "name": "snr_fhigh"
+   },
+   {
+    "dtype": "float64",
+    "name": "eta"
+   },
+   {
+    "dtype": "float64",
+    "name": "lnpdraw_mass2_source_GIVEN_mass1_source"
+   },
+   {
+    "dtype": "float64",
+    "name": "lnpdraw_coa_phase"
+   },
+   {
+    "dtype": "float64",
+    "name": "deltaf"
+   },
+   {
+    "dtype": "float64",
+    "name": "lnpdraw_time_geocenter"
+   },
+   {
+    "dtype": "float64",
+    "name": "lnpdraw_inclination"
+   },
+   {
+    "dtype": "float64",
+    "name": "inclination"
+   },
+   {
+    "dtype": "float64",
+    "name": "lnpdraw_right_ascension"
+   },
+   {
+    "dtype": "|S50",
+    "name": "approximant"
+   },
+   {
+    "dtype": "float64",
+    "name": "lnpdraw_spin2_polar_angle"
+   },
+   {
+    "dtype": "float64",
+    "name": "chi_eff"
+   },
+   {
+    "dtype": "float64",
+    "name": "lnpdraw_spin1_polar_angle"
+   },
+   {
+    "dtype": "float64",
+    "name": "observed_snr_L"
+   },
+   {
+    "dtype": "float64",
+    "name": "right_ascension"
+   },
+   {
+    "dtype": "float64",
+    "name": "luminosity_distance"
+   },
+   {
+    "dtype": "float64",
+    "name": "observed_phase_maximized_snr_L"
+   },
+   {
+    "dtype": "float64",
+    "name": "observed_phase_maximized_snr_H"
+   },
+   {
+    "dtype": "float64",
+    "name": "spin1y"
+   },
+   {
+    "dtype": "float64",
+    "name": "waveform_fhigh"
+   },
+   {
+    "dtype": "float64",
+    "name": "spin2_azimuthal_angle"
+   },
+   {
+    "dtype": "float64",
+    "name": "snr_L"
+   },
+   {
+    "dtype": "float64",
+    "name": "coa_phase"
+   },
+   {
+    "dtype": "float64",
+    "name": "phenomxhm_mband_threshold"
+   },
+   {
+    "dtype": "float64",
+    "name": "phenomxphm_mband_threshold"
+   },
+   {
+    "dtype": "float64",
+    "name": "truncate_low_frequencies"
+   },
+   {
+    "dtype": "float64",
+    "name": "truncate_high_frequencies"
+   },
+   {
+    "dtype": "float64",
+    "name": "weights"
+   },
+   {
+    "dtype": "float64",
+    "name": "semianalytic_weights_1ifo"
+   },
+   {
+    "dtype": "float64",
+    "name": "semianalytic_weights_2ifo"
+   },
+   {
+    "dtype": "float64",
+    "name": "cwb-bbh_bandwidth"
+   },
+   {
+    "dtype": "float64",
+    "name": "cwb-bbh_central_freq"
+   },
+   {
+    "dtype": "float64",
+    "name": "cwb-bbh_central_rec_time"
+   },
+   {
+    "dtype": "float64",
+    "name": "cwb-bbh_chirp_mass_detector"
+   },
+   {
+    "dtype": "float64",
+    "name": "cwb-bbh_duration"
+   },
+   {
+    "dtype": "float64",
+    "name": "cwb-bbh_far"
+   },
+   {
+    "dtype": "float64",
+    "name": "cwb-bbh_gps_time"
+   },
+   {
+    "dtype": "float64",
+    "name": "cwb-bbh_p_astro"
+   },
+   {
+    "dtype": "float64",
+    "name": "cwb-bbh_ranking_statistic"
+   },
+   {
+    "dtype": "float64",
+    "name": "cwb-bbh_rec_snr_H"
+   },
+   {
+    "dtype": "float64",
+    "name": "cwb-bbh_rec_snr_L"
+   },
+   {
+    "dtype": "float64",
+    "name": "cwb-bbh_rec_snr_net"
+   },
+   {
+    "dtype": "float64",
+    "name": "gstlal_gps_time"
+   },
+   {
+    "dtype": "float64",
+    "name": "gstlal_far"
+   },
+   {
+    "dtype": "float64",
+    "name": "gstlal_p_astro"
+   },
+   {
+    "dtype": "float64",
+    "name": "gstlal_ranking_statistic"
+   },
+   {
+    "dtype": "float64",
+    "name": "gstlal_rec_snr_net"
+   },
+   {
+    "dtype": "float64",
+    "name": "gstlal_rec_snr_L"
+   },
+   {
+    "dtype": "float64",
+    "name": "gstlal_rec_snr_H"
+   },
+   {
+    "dtype": "float64",
+    "name": "gstlal_mass1_detector"
+   },
+   {
+    "dtype": "float64",
+    "name": "gstlal_mass2_detector"
+   },
+   {
+    "dtype": "float64",
+    "name": "gstlal_chi_eff"
+   },
+   {
+    "dtype": "float64",
+    "name": "mbta_far"
+   },
+   {
+    "dtype": "float64",
+    "name": "mbta_gps_time"
+   },
+   {
+    "dtype": "float64",
+    "name": "mbta_mass1_detector"
+   },
+   {
+    "dtype": "float64",
+    "name": "mbta_mass2_detector"
+   },
+   {
+    "dtype": "float64",
+    "name": "mbta_p_astro"
+   },
+   {
+    "dtype": "float64",
+    "name": "mbta_ranking_statistic"
+   },
+   {
+    "dtype": "float64",
+    "name": "mbta_rec_snr_H"
+   },
+   {
+    "dtype": "float64",
+    "name": "mbta_rec_snr_L"
+   },
+   {
+    "dtype": "float64",
+    "name": "mbta_rec_snr_net"
+   },
+   {
+    "dtype": "float64",
+    "name": "mbta_spin1z"
+   },
+   {
+    "dtype": "float64",
+    "name": "mbta_spin2z"
+   },
+   {
+    "dtype": "float64",
+    "name": "pycbc_far"
+   },
+   {
+    "dtype": "float64",
+    "name": "pycbc_gps_time"
+   },
+   {
+    "dtype": "float64",
+    "name": "pycbc_mass1_detector"
+   },
+   {
+    "dtype": "float64",
+    "name": "pycbc_mass2_detector"
+   },
+   {
+    "dtype": "float64",
+    "name": "pycbc_ranking_statistic"
+   },
+   {
+    "dtype": "float64",
+    "name": "pycbc_rec_snr_H"
+   },
+   {
+    "dtype": "float64",
+    "name": "pycbc_rec_snr_L"
+   },
+   {
+    "dtype": "float64",
+    "name": "pycbc_rec_snr_net"
+   },
+   {
+    "dtype": "float64",
+    "name": "pycbc_spin1z"
+   },
+   {
+    "dtype": "float64",
+    "name": "pycbc_spin2z"
+   }
+  ],
+  "attrs_root": {
+   "date": "13:38:22 UTC Sat 03 May 2025",
+   "gps_end": 1390779904,
+   "gps_start": 1366933504,
+   "num_accepted": 3974400,
+   "searches": [
+    "cwb-bbh",
+    "gstlal",
+    "mbta",
+    "pycbc"
+   ],
+   "total_analysis_time": 23846400.0,
+   "total_analysis_time_1ifo": 17051365.0,
+   "total_analysis_time_2ifo": 10947642.0,
+   "total_generated": 433157717
+  },
+  "attrs_table_parent": {},
+  "columns_kept": [
+   "chi_eff",
+   "chi_p",
+   "cwb-bbh_far",
+   "cwb-bbh_p_astro",
+   "dluminosity_distance_dredshift",
+   "gstlal_far",
+   "gstlal_p_astro",
+   "lnpdraw_coa_phase",
+   "lnpdraw_declination",
+   "lnpdraw_eccentricity",
+   "lnpdraw_inclination",
+   "lnpdraw_mass1_source",
+   "lnpdraw_mass2_source_GIVEN_mass1_source",
+   "lnpdraw_polarization",
+   "lnpdraw_right_ascension",
+   "lnpdraw_spin1_azimuthal_angle",
+   "lnpdraw_spin1_magnitude",
+   "lnpdraw_spin1_polar_angle",
+   "lnpdraw_spin2_azimuthal_angle",
+   "lnpdraw_spin2_magnitude",
+   "lnpdraw_spin2_polar_angle",
+   "lnpdraw_time_geocenter",
+   "lnpdraw_z",
+   "luminosity_distance",
+   "mass1_source",
+   "mass2_source",
+   "mbta_far",
+   "mbta_p_astro",
+   "pycbc_far",
+   "q",
+   "semianalytic_weights_1ifo",
+   "semianalytic_weights_2ifo",
+   "spin1_azimuthal_angle",
+   "spin1_magnitude",
+   "spin1_polar_angle",
+   "spin1x",
+   "spin1y",
+   "spin1z",
+   "spin2_azimuthal_angle",
+   "spin2_magnitude",
+   "spin2_polar_angle",
+   "spin2x",
+   "spin2y",
+   "spin2z",
+   "weights",
+   "z"
+  ],
+  "extracted_utc": "2026-06-11T01:04:39Z",
+  "n_columns_kept": 46,
+  "n_fields_total": 115,
+  "n_rows": 1499244,
+  "parquet": "data/derived/selection/o4a_injections.parquet",
+  "parquet_bytes": 255116590,
+  "parquet_sha256": "cf57c3ad0559ff872e686d10d3f459363fbed839296eeb025827bbc24db8a8a1",
+  "source_bytes": 1442289200,
+  "source_file": "samples-rpo4a_v2_20250503133839UTC-1366933504-23846400.hdf",
+  "source_md5": "1cf34f975ebbb3c8cce461ee26467cd6",
+  "table_dataset": "events",
+  "tag": "o4a_injections",
+  "zenodo_file_id": "8247cd41-9b7f-426f-8090-584374a19815",
+  "zenodo_record": "16740117"
+ }
+]

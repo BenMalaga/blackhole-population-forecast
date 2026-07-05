@@ -1,0 +1,2804 @@
+{
+ "events": [
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomNSBH:LowSpin",
+    "C00:IMRPhenomPv2-NRTidalv2:LowSpin",
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:SEOBNRv4_ROM_NRTidalv2_NSBH:LowSpin",
+    "history",
+    "version"
+   ],
+   "event": "GW230518_125908",
+   "extracted_utc": "2026-06-10T23:56:03Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "approximant",
+      "calibration_envelope",
+      "config_file",
+      "description",
+      "injection_data",
+      "meta_data",
+      "posterior_samples",
+      "priors",
+      "psds",
+      "skymap",
+      "version"
+     ],
+     "group_used": "C00:IMRPhenomXPHM-SpinTaylor",
+     "has_priors_group": true,
+     "n_samples": 11711,
+     "parquet": "data/derived/o4a_pe/GW230518_125908__C00_IMRPhenomXPHM-SpinTaylor.parquet",
+     "parquet_bytes": 986766,
+     "parquet_sha256": "7c49c294a15438948cf68690fb893cc771c2749c2975640e944f95e59d84c42c"
+    }
+   ],
+   "fallback_group_used": "C00:IMRPhenomXPHM-SpinTaylor",
+   "in_lvk_bbh_cut": false,
+   "lvk_population_pe_label": null,
+   "prereg_locked_at_acquisition": false,
+   "source_bytes": 232963344,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230518_125908-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "3d179554c53430edf08dcfcc7bb2af1f",
+   "zenodo_file_id": "04e4a151-a66d-42ce-beba-74389754f6b0"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomNSBH",
+    "C00:IMRPhenomPv2_NRTidalv2",
+    "C00:IMRPhenomXAS:HighSpin",
+    "C00:IMRPhenomXAS:LowSpinSecondary",
+    "C00:IMRPhenomXHM",
+    "C00:IMRPhenomXP",
+    "C00:IMRPhenomXPHM:HighSpin",
+    "C00:IMRPhenomXPHM:LowSpin",
+    "C00:IMRPhenomXPHM:LowSpinSecondary",
+    "C00:Mixed:HighSpin",
+    "C00:Mixed:LowSpinSecondary",
+    "C00:SEOBNRv4_ROM_NRTidalv2_NSBH",
+    "C00:SEOBNRv5PHM:HighSpin",
+    "C00:SEOBNRv5PHM:LowSpinSecondary",
+    "history",
+    "version"
+   ],
+   "event": "GW230529_181500",
+   "extracted_utc": "2026-06-11T00:00:25Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed:HighSpin",
+     "has_priors_group": false,
+     "n_samples": 10978,
+     "parquet": "data/derived/o4a_pe/GW230529_181500__C00_Mixed_HighSpin.parquet",
+     "parquet_bytes": 926293,
+     "parquet_sha256": "d24dbaf104403371b9f84b588c728e2e8282ba335febc372a12b7ad49374f4b6"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": false,
+   "lvk_population_pe_label": null,
+   "prereg_locked_at_acquisition": false,
+   "source_bytes": 136832170,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230529_181500-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "5d50a4496d4180a3458d8e7a4cc93e22",
+   "zenodo_file_id": "5f774485-5564-4c82-baf2-d01e2bcb9cd5"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXO4a",
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:Mixed+XO4a",
+    "C00:NRSur7dq4",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230601_224134",
+   "extracted_utc": "2026-06-11T00:02:10Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "approximant",
+      "calibration_envelope",
+      "config_file",
+      "description",
+      "injection_data",
+      "meta_data",
+      "posterior_samples",
+      "priors",
+      "psds",
+      "skymap",
+      "version"
+     ],
+     "group_used": "C00:NRSur7dq4",
+     "has_priors_group": true,
+     "n_samples": 15513,
+     "parquet": "data/derived/o4a_pe/GW230601_224134__C00_NRSur7dq4.parquet",
+     "parquet_bytes": 1318245,
+     "parquet_sha256": "40cc58a3eeb3e409cfa753ea1c09672a00787bc9627d8596687af8f1dcd178fb"
+    },
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 43314,
+     "parquet": "data/derived/o4a_pe/GW230601_224134__C00_Mixed.parquet",
+     "parquet_bytes": 3750639,
+     "parquet_sha256": "794e45645096238e1263c837e5fd07c3365c6915934761973a770b2d6f5e406f"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:NRSur7dq4",
+   "prereg_locked_at_acquisition": false,
+   "source_bytes": 225937166,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230601_224134-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "41ebf6e7fc9194d2ffd5086641982570",
+   "zenodo_file_id": "86ba18c8-fa91-47be-93e5-da736865ef15"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXO4a",
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:Mixed+XO4a",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230605_065343",
+   "extracted_utc": "2026-06-11T00:06:03Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 31538,
+     "parquet": "data/derived/o4a_pe/GW230605_065343__C00_Mixed.parquet",
+     "parquet_bytes": 2716446,
+     "parquet_sha256": "d6729583577bc5f33961e64df94a0a28fe491adbea8d0c7f0960939cc6b1226a"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:Mixed",
+   "prereg_locked_at_acquisition": false,
+   "source_bytes": 241327846,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230605_065343-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "ee3c17d25085babe13a978fbd5b26724",
+   "zenodo_file_id": "b3331bdc-8eda-44d0-b5fc-0ec9cc2edc36"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:NRSur7dq4",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230606_004305",
+   "extracted_utc": "2026-06-11T00:08:51Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "approximant",
+      "calibration_envelope",
+      "config_file",
+      "description",
+      "injection_data",
+      "meta_data",
+      "posterior_samples",
+      "priors",
+      "psds",
+      "skymap",
+      "version"
+     ],
+     "group_used": "C00:NRSur7dq4",
+     "has_priors_group": true,
+     "n_samples": 15106,
+     "parquet": "data/derived/o4a_pe/GW230606_004305__C00_NRSur7dq4.parquet",
+     "parquet_bytes": 1282277,
+     "parquet_sha256": "fa0503a6392869acc2981b50eeea30529e02c7d88c49eab4b0039d59ba52ed9e"
+    },
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 41712,
+     "parquet": "data/derived/o4a_pe/GW230606_004305__C00_Mixed.parquet",
+     "parquet_bytes": 3613242,
+     "parquet_sha256": "a8018908668e430c6011f39304534a436d08a2b51828cb2080e872c1181e54a9"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:NRSur7dq4",
+   "prereg_locked_at_acquisition": false,
+   "source_bytes": 169152320,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230606_004305-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "fa8e5cc75a90a9f63dd69070e97ede86",
+   "zenodo_file_id": "75525e44-0eb9-4c70-8177-94862223f16e"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:NRSur7dq4",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230608_205047",
+   "extracted_utc": "2026-06-11T00:09:56Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "approximant",
+      "calibration_envelope",
+      "config_file",
+      "description",
+      "injection_data",
+      "meta_data",
+      "posterior_samples",
+      "priors",
+      "psds",
+      "skymap",
+      "version"
+     ],
+     "group_used": "C00:NRSur7dq4",
+     "has_priors_group": true,
+     "n_samples": 15169,
+     "parquet": "data/derived/o4a_pe/GW230608_205047__C00_NRSur7dq4.parquet",
+     "parquet_bytes": 1292076,
+     "parquet_sha256": "0acc4b98baca7f7304a3e0b51bf9d411103b5a521596589a784eb33ddae64631"
+    },
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 40584,
+     "parquet": "data/derived/o4a_pe/GW230608_205047__C00_Mixed.parquet",
+     "parquet_bytes": 3528100,
+     "parquet_sha256": "d6253f51138479d10178ebe0525496d3c1acc17a776b3a32c4a7a437e769d6ec"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:NRSur7dq4",
+   "prereg_locked_at_acquisition": false,
+   "source_bytes": 130705136,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230608_205047-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "d22ae04de1393641ea7eeda2de2e19ba",
+   "zenodo_file_id": "fb24ece0-9e48-4de3-962d-9c49abc5027a"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:NRSur7dq4",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230609_064958",
+   "extracted_utc": "2026-06-11T00:10:54Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "approximant",
+      "calibration_envelope",
+      "config_file",
+      "description",
+      "injection_data",
+      "meta_data",
+      "posterior_samples",
+      "priors",
+      "psds",
+      "skymap",
+      "version"
+     ],
+     "group_used": "C00:NRSur7dq4",
+     "has_priors_group": true,
+     "n_samples": 15212,
+     "parquet": "data/derived/o4a_pe/GW230609_064958__C00_NRSur7dq4.parquet",
+     "parquet_bytes": 1290136,
+     "parquet_sha256": "70064536cb72bf5eabbba1763289596e394262791536774c97ef7b48c2618b86"
+    },
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 39057,
+     "parquet": "data/derived/o4a_pe/GW230609_064958__C00_Mixed.parquet",
+     "parquet_bytes": 3385452,
+     "parquet_sha256": "1ac204e5c3da0a5682150d5e9988c1e12285156a989c158bbd0bef53917be34f"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:NRSur7dq4",
+   "prereg_locked_at_acquisition": false,
+   "source_bytes": 182659448,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230609_064958-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "361b3a174d10008805e33e753da82ebb",
+   "zenodo_file_id": "c2fa455b-4b69-4e39-96b2-9df8e784ef60"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230624_113103",
+   "extracted_utc": "2026-06-11T01:28:50Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 31692,
+     "parquet": "data/derived/o4a_pe/GW230624_113103__C00_Mixed.parquet",
+     "parquet_bytes": 2737225,
+     "parquet_sha256": "b156d5a54c1d6a5669eb1f12881511906cbf6f67c9432a1190769d71f05982c3"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:Mixed",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 138260856,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230624_113103-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "49fccb53102d7f93dfabc4b977d5f362",
+   "zenodo_file_id": "9107ab42-bfd9-4e25-a423-466c59d8ad07"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230627_015337",
+   "extracted_utc": "2026-06-11T01:31:17Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 19376,
+     "parquet": "data/derived/o4a_pe/GW230627_015337__C00_Mixed.parquet",
+     "parquet_bytes": 1664235,
+     "parquet_sha256": "9496bef2918478ae1139f47b2d60a9e9951ec037444cba33b9ecadb8b2df4619"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:Mixed",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 271553720,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230627_015337-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "a2286384dd51e3e79afc7c5d7e9998ad",
+   "zenodo_file_id": "18ff9798-4ad9-4aa0-a511-395080586a3a"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:NRSur7dq4",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230628_231200",
+   "extracted_utc": "2026-06-11T01:35:09Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "approximant",
+      "calibration_envelope",
+      "config_file",
+      "description",
+      "injection_data",
+      "meta_data",
+      "posterior_samples",
+      "priors",
+      "psds",
+      "skymap",
+      "version"
+     ],
+     "group_used": "C00:NRSur7dq4",
+     "has_priors_group": true,
+     "n_samples": 15877,
+     "parquet": "data/derived/o4a_pe/GW230628_231200__C00_NRSur7dq4.parquet",
+     "parquet_bytes": 1344979,
+     "parquet_sha256": "62d586055be04032e45433704f51abd9c760696510676e853a1c40c6c386ab1b"
+    },
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 43473,
+     "parquet": "data/derived/o4a_pe/GW230628_231200__C00_Mixed.parquet",
+     "parquet_bytes": 3751297,
+     "parquet_sha256": "e411f955124c97b0f25c1e4e92a16f67ce6c0938a2ce0c530c134be801630b51"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:NRSur7dq4",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 192392400,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230628_231200-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "10477f288293d0529fade08282bc1d6d",
+   "zenodo_file_id": "536ba9d8-7ba3-4e96-95d7-b088410e6253"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:NRSur7dq4",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230630_125806",
+   "extracted_utc": "2026-06-11T01:36:16Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "approximant",
+      "calibration_envelope",
+      "config_file",
+      "description",
+      "injection_data",
+      "meta_data",
+      "posterior_samples",
+      "priors",
+      "psds",
+      "skymap",
+      "version"
+     ],
+     "group_used": "C00:NRSur7dq4",
+     "has_priors_group": true,
+     "n_samples": 15416,
+     "parquet": "data/derived/o4a_pe/GW230630_125806__C00_NRSur7dq4.parquet",
+     "parquet_bytes": 1310131,
+     "parquet_sha256": "40924442bc57a7de7463f9fbe43d8c830679d2014fbc0164e73da5711e551001"
+    },
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 46248,
+     "parquet": "data/derived/o4a_pe/GW230630_125806__C00_Mixed.parquet",
+     "parquet_bytes": 4005788,
+     "parquet_sha256": "2931ed6d918a0d7b2691481c613c203ad06aed93c9696c01a3e90c2028110a1e"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:NRSur7dq4",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 142367992,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230630_125806-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "9f932e7943b076cac6dfedb272a9b818",
+   "zenodo_file_id": "aa340410-0383-44fa-b627-ea87ef0783ca"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230630_234532",
+   "extracted_utc": "2026-06-11T01:41:04Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 29942,
+     "parquet": "data/derived/o4a_pe/GW230630_234532__C00_Mixed.parquet",
+     "parquet_bytes": 2577903,
+     "parquet_sha256": "1d5959836110b65ae743483e58d82ab9d6f4a909b50dc53fc1e6cc34a6706973"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:Mixed",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 131920200,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230630_234532-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "a1c6eb82df3238a5c1c8ff3793b03151",
+   "zenodo_file_id": "c83e1ea5-a4ab-47d0-8509-93018989e91b"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:NRSur7dq4",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230702_185453",
+   "extracted_utc": "2026-06-11T01:41:59Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "approximant",
+      "calibration_envelope",
+      "config_file",
+      "description",
+      "injection_data",
+      "meta_data",
+      "posterior_samples",
+      "priors",
+      "psds",
+      "skymap",
+      "version"
+     ],
+     "group_used": "C00:NRSur7dq4",
+     "has_priors_group": true,
+     "n_samples": 15422,
+     "parquet": "data/derived/o4a_pe/GW230702_185453__C00_NRSur7dq4.parquet",
+     "parquet_bytes": 1312832,
+     "parquet_sha256": "5377ff68b9b67a3c51f12dca0a9cae2b51df732df2d0e2a69c50113484731b0d"
+    },
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 45345,
+     "parquet": "data/derived/o4a_pe/GW230702_185453__C00_Mixed.parquet",
+     "parquet_bytes": 3932981,
+     "parquet_sha256": "ad1f6d98b6c2b3ec16cc3912d086e6ab9326ff87c0189374670d6759af3c0784"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:NRSur7dq4",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 140617808,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230702_185453-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "7f6d7edbd145f84558b507c9a3e2c0d1",
+   "zenodo_file_id": "47c70e60-5b63-4321-97bf-36a6c765023a"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXO4a",
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:Mixed+XO4a",
+    "C00:NRSur7dq4",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230704_021211",
+   "extracted_utc": "2026-06-11T01:43:03Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "approximant",
+      "calibration_envelope",
+      "config_file",
+      "description",
+      "injection_data",
+      "meta_data",
+      "posterior_samples",
+      "priors",
+      "psds",
+      "skymap",
+      "version"
+     ],
+     "group_used": "C00:NRSur7dq4",
+     "has_priors_group": true,
+     "n_samples": 20430,
+     "parquet": "data/derived/o4a_pe/GW230704_021211__C00_NRSur7dq4.parquet",
+     "parquet_bytes": 1776087,
+     "parquet_sha256": "2f12ae5d350123c55f654dab2bce1f17b6119449c7e939dd10fd7adcfbc4ebfe"
+    },
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 38343,
+     "parquet": "data/derived/o4a_pe/GW230704_021211__C00_Mixed.parquet",
+     "parquet_bytes": 3336386,
+     "parquet_sha256": "d8a880f068037a47655c27653646e101a05a89f5743cd3cc75de55bc2c34c2ce"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:NRSur7dq4",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 230949846,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230704_021211-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "ac707bb7a422085c61c65f40282c5cff",
+   "zenodo_file_id": "f0f958a4-b5d6-4633-91bd-88312cd04bb3"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXO4a",
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:Mixed+XO4a",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230704_212616",
+   "extracted_utc": "2026-06-11T01:44:00Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 38906,
+     "parquet": "data/derived/o4a_pe/GW230704_212616__C00_Mixed.parquet",
+     "parquet_bytes": 3377437,
+     "parquet_sha256": "d7531e427becefec3724d84929bf4d5747acbd26a9652897f334fdf32f8a5706"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:Mixed",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 218455462,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230704_212616-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "1dff4033d0220062555ad12f0d27eb46",
+   "zenodo_file_id": "08df7fa1-f06b-4545-a180-d0f79d26b82b"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230706_104333",
+   "extracted_utc": "2026-06-11T01:45:06Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 30470,
+     "parquet": "data/derived/o4a_pe/GW230706_104333__C00_Mixed.parquet",
+     "parquet_bytes": 2618899,
+     "parquet_sha256": "d3f12c4e7af82d81992f8f5b853ecf892998f0f9cb753ecaf1f293620bfd4e25"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:Mixed",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 132804184,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230706_104333-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "b67dcee91cef3dd8151351ecbb6fcbb6",
+   "zenodo_file_id": "61fd8699-20a8-4584-9ab4-e600e254e3a5"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:NRSur7dq4",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230707_124047",
+   "extracted_utc": "2026-06-11T01:46:07Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "approximant",
+      "calibration_envelope",
+      "config_file",
+      "description",
+      "injection_data",
+      "meta_data",
+      "posterior_samples",
+      "priors",
+      "psds",
+      "skymap",
+      "version"
+     ],
+     "group_used": "C00:NRSur7dq4",
+     "has_priors_group": true,
+     "n_samples": 13887,
+     "parquet": "data/derived/o4a_pe/GW230707_124047__C00_NRSur7dq4.parquet",
+     "parquet_bytes": 1178091,
+     "parquet_sha256": "57bd3d480fb3594d02c41bce0d232c49292cd7a11b3e16227014623588d01061"
+    },
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 41034,
+     "parquet": "data/derived/o4a_pe/GW230707_124047__C00_Mixed.parquet",
+     "parquet_bytes": 3548889,
+     "parquet_sha256": "6a56728520164fc31ccb8e83f0ad73a14da15eaba942a2f5cac6fb7ee871c250"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:NRSur7dq4",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 128720440,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230707_124047-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "b9816a52a2b4cd414c58626336c62b21",
+   "zenodo_file_id": "91b476c0-444c-4f7f-b507-b63708f7ffb4"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:NRSur7dq4",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230708_053705",
+   "extracted_utc": "2026-06-11T01:47:23Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "approximant",
+      "calibration_envelope",
+      "config_file",
+      "description",
+      "injection_data",
+      "meta_data",
+      "posterior_samples",
+      "priors",
+      "psds",
+      "skymap",
+      "version"
+     ],
+     "group_used": "C00:NRSur7dq4",
+     "has_priors_group": true,
+     "n_samples": 16385,
+     "parquet": "data/derived/o4a_pe/GW230708_053705__C00_NRSur7dq4.parquet",
+     "parquet_bytes": 1389194,
+     "parquet_sha256": "cbfcb54abc79070cbba9975a16dd77a817feaece48b224f51fde06feb86f428a"
+    },
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 47802,
+     "parquet": "data/derived/o4a_pe/GW230708_053705__C00_Mixed.parquet",
+     "parquet_bytes": 4131176,
+     "parquet_sha256": "83576f593bdd78914139b4257819cbd60b6037f3e228722dc137221184a57f58"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:NRSur7dq4",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 181957024,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230708_053705-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "e593a63d7740b8eec811448067d4183a",
+   "zenodo_file_id": "50916371-6e8b-4791-a931-206bb85a08af"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXO4a",
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:Mixed+XO4a",
+    "C00:NRSur7dq4",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230708_230935",
+   "extracted_utc": "2026-06-11T01:49:34Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "approximant",
+      "calibration_envelope",
+      "config_file",
+      "description",
+      "injection_data",
+      "meta_data",
+      "posterior_samples",
+      "priors",
+      "psds",
+      "skymap",
+      "version"
+     ],
+     "group_used": "C00:NRSur7dq4",
+     "has_priors_group": true,
+     "n_samples": 14021,
+     "parquet": "data/derived/o4a_pe/GW230708_230935__C00_NRSur7dq4.parquet",
+     "parquet_bytes": 1192911,
+     "parquet_sha256": "ea7bd6855909cac420e3f964500e11728e3676b1e49c94b29d0ccbc38ae542c7"
+    },
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 42063,
+     "parquet": "data/derived/o4a_pe/GW230708_230935__C00_Mixed.parquet",
+     "parquet_bytes": 3647319,
+     "parquet_sha256": "42bd768fb093dfca1e8511edc35c1e2f110f55b699491ad4af394742b7f9596f"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:NRSur7dq4",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 229671246,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230708_230935-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "fca71bf6e477d5c8f49b016319b8adfb",
+   "zenodo_file_id": "31eeb806-1ab0-4f09-9153-90f1db0012dd"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:NRSur7dq4",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230709_122727",
+   "extracted_utc": "2026-06-11T01:51:04Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "approximant",
+      "calibration_envelope",
+      "config_file",
+      "description",
+      "injection_data",
+      "meta_data",
+      "posterior_samples",
+      "priors",
+      "psds",
+      "skymap",
+      "version"
+     ],
+     "group_used": "C00:NRSur7dq4",
+     "has_priors_group": true,
+     "n_samples": 14179,
+     "parquet": "data/derived/o4a_pe/GW230709_122727__C00_NRSur7dq4.parquet",
+     "parquet_bytes": 1207380,
+     "parquet_sha256": "b1d2832709864a1dd7fbfbd66dafcf5e6dd2fa8622f00640c2516da74ae89904"
+    },
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 36789,
+     "parquet": "data/derived/o4a_pe/GW230709_122727__C00_Mixed.parquet",
+     "parquet_bytes": 3197614,
+     "parquet_sha256": "df9bb29cc1c15c865eaae0177509423358ce23c373c9aa4adf182e30fbdcc7b5"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:NRSur7dq4",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 121017016,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230709_122727-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "6369b9e910910da3871d47d33ff04449",
+   "zenodo_file_id": "874e3d9e-ef04-4557-8a4e-137445f8268c"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXO4a",
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:Mixed+XO4a",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230712_090405",
+   "extracted_utc": "2026-06-11T01:53:38Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 46626,
+     "parquet": "data/derived/o4a_pe/GW230712_090405__C00_Mixed.parquet",
+     "parquet_bytes": 4044872,
+     "parquet_sha256": "2d0a3283675a030fe0d2deeefb9f28f6dcba4080056537ac5a78232790470d25"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:Mixed",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 260894662,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230712_090405-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "0382ab9b256a889cc50aa5f9d20b98ae",
+   "zenodo_file_id": "6a146e84-00ff-4d28-9a61-6ff6e679e6ce"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230723_101834",
+   "extracted_utc": "2026-06-11T01:54:22Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 30000,
+     "parquet": "data/derived/o4a_pe/GW230723_101834__C00_Mixed.parquet",
+     "parquet_bytes": 2583917,
+     "parquet_sha256": "e9c82d9eb90ac0f9b4fff9ce857db090772f008fc64a252bca0fe220a20c1865"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:Mixed",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 132468880,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230723_101834-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "7de2f8b732f65e8b2c7c4bfc167d98ca",
+   "zenodo_file_id": "5cd440c2-28f2-44da-aef3-70f936bd9d79"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:NRSur7dq4",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230726_002940",
+   "extracted_utc": "2026-06-11T01:54:48Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "approximant",
+      "calibration_envelope",
+      "config_file",
+      "description",
+      "injection_data",
+      "meta_data",
+      "posterior_samples",
+      "priors",
+      "psds",
+      "skymap",
+      "version"
+     ],
+     "group_used": "C00:NRSur7dq4",
+     "has_priors_group": true,
+     "n_samples": 14274,
+     "parquet": "data/derived/o4a_pe/GW230726_002940__C00_NRSur7dq4.parquet",
+     "parquet_bytes": 1211838,
+     "parquet_sha256": "3b5452dbf17ea29bd9b60d8f82db76ae9d75c3fb643e77a4c2f57c4d19558c55"
+    },
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 37473,
+     "parquet": "data/derived/o4a_pe/GW230726_002940__C00_Mixed.parquet",
+     "parquet_bytes": 3246170,
+     "parquet_sha256": "9a35d0d937f8da6e3971aabb7e6f991e12cd3f231d5694365bf53e3c727f0043"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:NRSur7dq4",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 76943248,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230726_002940-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "d2b460fa976234658663b7176284a117",
+   "zenodo_file_id": "adbef9be-fa53-4f73-943c-5e51be927923"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230729_082317",
+   "extracted_utc": "2026-06-11T01:55:24Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 25210,
+     "parquet": "data/derived/o4a_pe/GW230729_082317__C00_Mixed.parquet",
+     "parquet_bytes": 2177768,
+     "parquet_sha256": "596af5d47cecd59a7fd30ed5bddf8954686de1eb822f09e1beb19b6abbc98bcf"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:Mixed",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 86074664,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230729_082317-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "0e5fb8dc320b5c5c76168208eb6945b4",
+   "zenodo_file_id": "cb525f8d-1299-4291-90f1-1c5e2e75df7d"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230731_215307",
+   "extracted_utc": "2026-06-11T01:56:08Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 21808,
+     "parquet": "data/derived/o4a_pe/GW230731_215307__C00_Mixed.parquet",
+     "parquet_bytes": 1878888,
+     "parquet_sha256": "5b90228ad66117be13853a6c4c9084f0a680ffb978ac312046e53804b246085e"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:Mixed",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 117485032,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230731_215307-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "a5aaa74994f4432ba648e14ad26ef857",
+   "zenodo_file_id": "5fceddd1-6ace-4e01-a9b6-ad42d6d6690c"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXO4a",
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:Mixed+XO4a",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230803_033412",
+   "extracted_utc": "2026-06-11T01:57:17Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 30294,
+     "parquet": "data/derived/o4a_pe/GW230803_033412__C00_Mixed.parquet",
+     "parquet_bytes": 2625398,
+     "parquet_sha256": "e0e263c870f6da7816304ebe149f3ab39a4b724e432bf5f70a996b065f6aa44f"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:Mixed",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 179837190,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230803_033412-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "3bedf8cf52f5c15946e1470dfeb20ef7",
+   "zenodo_file_id": "36043a4b-694c-47ce-87fd-64c860b26ba3"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:NRSur7dq4",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230805_034249",
+   "extracted_utc": "2026-06-11T01:58:11Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "approximant",
+      "calibration_envelope",
+      "config_file",
+      "description",
+      "injection_data",
+      "meta_data",
+      "posterior_samples",
+      "priors",
+      "psds",
+      "skymap",
+      "version"
+     ],
+     "group_used": "C00:NRSur7dq4",
+     "has_priors_group": true,
+     "n_samples": 12337,
+     "parquet": "data/derived/o4a_pe/GW230805_034249__C00_NRSur7dq4.parquet",
+     "parquet_bytes": 1049673,
+     "parquet_sha256": "3ed522bf22e54d20828b6c389a5b51b3ef5aaa4dc402c7cd399ba020f6e49b25"
+    },
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 37011,
+     "parquet": "data/derived/o4a_pe/GW230805_034249__C00_Mixed.parquet",
+     "parquet_bytes": 3212526,
+     "parquet_sha256": "d97a289f4cdce37ec2e55cb4c36188cad6b0fd726959c69a7126f8e3985be255"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:NRSur7dq4",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 125775296,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230805_034249-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "0eeacfba608d6c0dec7d67e61060189d",
+   "zenodo_file_id": "6bbb19fc-ab8a-4e8d-aa70-4d0841ec4a4e"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:NRSur7dq4",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230806_204041",
+   "extracted_utc": "2026-06-11T01:59:06Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "approximant",
+      "calibration_envelope",
+      "config_file",
+      "description",
+      "injection_data",
+      "meta_data",
+      "posterior_samples",
+      "priors",
+      "psds",
+      "skymap",
+      "version"
+     ],
+     "group_used": "C00:NRSur7dq4",
+     "has_priors_group": true,
+     "n_samples": 13851,
+     "parquet": "data/derived/o4a_pe/GW230806_204041__C00_NRSur7dq4.parquet",
+     "parquet_bytes": 1178433,
+     "parquet_sha256": "48b73d75bad454a6ec918c5e2eb7af5a8643aa1362a433f68dbcc3df308aef93"
+    },
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 41553,
+     "parquet": "data/derived/o4a_pe/GW230806_204041__C00_Mixed.parquet",
+     "parquet_bytes": 3600326,
+     "parquet_sha256": "13b5c29d913904bbd97733064595f16b6779660c21e8254de27a28e798e6f7bd"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:NRSur7dq4",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 129946592,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230806_204041-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "c43d0d730d7724e7f967af2a224cb9e2",
+   "zenodo_file_id": "5eb3e43f-1d6e-4873-b4e8-ccbf7745d357"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230811_032116",
+   "extracted_utc": "2026-06-11T02:00:08Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 35748,
+     "parquet": "data/derived/o4a_pe/GW230811_032116__C00_Mixed.parquet",
+     "parquet_bytes": 3092450,
+     "parquet_sha256": "a965f7b237aef9ddeeb7f96eb721f102ad10dd594253a29a1a42f7621f875b28"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:Mixed",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 145340352,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230811_032116-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "62e7af48c7c2f190987f9e425c6e169a",
+   "zenodo_file_id": "b79c3edd-0e76-489b-a6a5-f30ded3299f4"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXO4a",
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:Mixed+XO4a",
+    "C00:NRSur7dq4",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230814_061920",
+   "extracted_utc": "2026-06-11T02:01:16Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "approximant",
+      "calibration_envelope",
+      "config_file",
+      "description",
+      "injection_data",
+      "meta_data",
+      "posterior_samples",
+      "priors",
+      "psds",
+      "skymap",
+      "version"
+     ],
+     "group_used": "C00:NRSur7dq4",
+     "has_priors_group": true,
+     "n_samples": 16397,
+     "parquet": "data/derived/o4a_pe/GW230814_061920__C00_NRSur7dq4.parquet",
+     "parquet_bytes": 1407817,
+     "parquet_sha256": "ddd85cf368618883004fb5a27e93c9ad1101ad9369cc03f07d7db605e485fc76"
+    },
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 40434,
+     "parquet": "data/derived/o4a_pe/GW230814_061920__C00_Mixed.parquet",
+     "parquet_bytes": 3510833,
+     "parquet_sha256": "937cffa9c59e4fa9d621c7151ee8fb4496fef9def1323e83f8cff1690c4b86fb"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:NRSur7dq4",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 217305974,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230814_061920-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "889ea62006b2ecff27bf329ee1211022",
+   "zenodo_file_id": "e97349d9-6a36-4a16-865a-5350d0c76431"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXO4a",
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:Mixed+XO4a",
+    "C00:NRSur7dq4",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230814_230901",
+   "extracted_utc": "2026-06-11T02:08:04Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "approximant",
+      "calibration_envelope",
+      "config_file",
+      "description",
+      "injection_data",
+      "meta_data",
+      "posterior_samples",
+      "priors",
+      "psds",
+      "skymap",
+      "version"
+     ],
+     "group_used": "C00:NRSur7dq4",
+     "has_priors_group": true,
+     "n_samples": 17538,
+     "parquet": "data/derived/o4a_pe/GW230814_230901__C00_NRSur7dq4.parquet",
+     "parquet_bytes": 1506236,
+     "parquet_sha256": "fd211b4c145fd8e0650c182cf7721f860492d86136295b70ea12766e2395a280"
+    },
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 67185,
+     "parquet": "data/derived/o4a_pe/GW230814_230901__C00_Mixed.parquet",
+     "parquet_bytes": 4255371,
+     "parquet_sha256": "24dccf3c2162d97e34d3ee0fd95f5d504919a58895f6d708d7673b2c52b8dc13"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:NRSur7dq4",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 166992558,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230814_230901-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "85387f9ed89195089a64de836079d35f",
+   "zenodo_file_id": "d5bfca40-50c3-4ad3-966d-a549edb84fa3"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230819_171910",
+   "extracted_utc": "2026-06-11T02:08:25Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 30812,
+     "parquet": "data/derived/o4a_pe/GW230819_171910__C00_Mixed.parquet",
+     "parquet_bytes": 2679140,
+     "parquet_sha256": "f63f562b26a617f3a348ba77e8c3b869ca5268014ba187e3b121b612406184d5"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:Mixed",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 94482976,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230819_171910-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "831d6f71d7e930f9e8b0803f956e09b7",
+   "zenodo_file_id": "0ccc3569-d061-448b-89c0-51159b86a50f"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230820_212515",
+   "extracted_utc": "2026-06-11T02:08:44Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 30812,
+     "parquet": "data/derived/o4a_pe/GW230820_212515__C00_Mixed.parquet",
+     "parquet_bytes": 2668870,
+     "parquet_sha256": "3a2dd66f32bb89c9b19b40cd7a9b9b10449a935dd55ae987ca3226952a1fb48e"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:Mixed",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 88535336,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230820_212515-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "f29663e8b50b112839ccd69633c6e3ee",
+   "zenodo_file_id": "c03f4441-9323-40e1-ab82-9721aa7c4031"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:NRSur7dq4",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230824_033047",
+   "extracted_utc": "2026-06-11T02:09:12Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "approximant",
+      "calibration_envelope",
+      "config_file",
+      "description",
+      "injection_data",
+      "meta_data",
+      "posterior_samples",
+      "priors",
+      "psds",
+      "skymap",
+      "version"
+     ],
+     "group_used": "C00:NRSur7dq4",
+     "has_priors_group": true,
+     "n_samples": 13463,
+     "parquet": "data/derived/o4a_pe/GW230824_033047__C00_NRSur7dq4.parquet",
+     "parquet_bytes": 1144200,
+     "parquet_sha256": "7375e6964987eaeddf6c04e2997744e488cd22bd4f4309db3c2fafa2dcb78637"
+    },
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 39618,
+     "parquet": "data/derived/o4a_pe/GW230824_033047__C00_Mixed.parquet",
+     "parquet_bytes": 3437365,
+     "parquet_sha256": "78d384344fe6cdf8018e42c821859880f9c6f1496ee9debf099aa549de7d0a1f"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:NRSur7dq4",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 126535096,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230824_033047-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "90c0466f735e7f0c7e312bd8fee9c2a6",
+   "zenodo_file_id": "d62b9bf7-cfef-4c19-92f7-a6d80e9bcc44"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXO4a",
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:Mixed+XO4a",
+    "C00:NRSur7dq4",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230825_041334",
+   "extracted_utc": "2026-06-11T02:10:01Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "approximant",
+      "calibration_envelope",
+      "config_file",
+      "description",
+      "injection_data",
+      "meta_data",
+      "posterior_samples",
+      "priors",
+      "psds",
+      "skymap",
+      "version"
+     ],
+     "group_used": "C00:NRSur7dq4",
+     "has_priors_group": true,
+     "n_samples": 18154,
+     "parquet": "data/derived/o4a_pe/GW230825_041334__C00_NRSur7dq4.parquet",
+     "parquet_bytes": 1572192,
+     "parquet_sha256": "56aae4f6e79c128745af29117adffaaccaf902b6055f0e4cff5ff7cd50cbce23"
+    },
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 41478,
+     "parquet": "data/derived/o4a_pe/GW230825_041334__C00_Mixed.parquet",
+     "parquet_bytes": 3588879,
+     "parquet_sha256": "06b9da798492639bb4af5690b7f7e37f0137fc665b7f7f4784b240a63158f8e1"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:NRSur7dq4",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 232665518,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230825_041334-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "2ad25931880b2fb04750303e35d2198d",
+   "zenodo_file_id": "dc2e5999-be98-4f3d-9d86-ade4edad02e6"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230831_015414",
+   "extracted_utc": "2026-06-11T02:10:22Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 29016,
+     "parquet": "data/derived/o4a_pe/GW230831_015414__C00_Mixed.parquet",
+     "parquet_bytes": 2515268,
+     "parquet_sha256": "8b5a9922ed4b171418744536f6ea811f37c540c5a850c3ca932c6cb04e033762"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:Mixed",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 96113400,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230831_015414-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "022c4ffaab1c28696dc3382184070335",
+   "zenodo_file_id": "1d7b86bb-167e-4280-be00-790c34fb765d"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230904_051013",
+   "extracted_utc": "2026-06-11T02:10:51Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 31120,
+     "parquet": "data/derived/o4a_pe/GW230904_051013__C00_Mixed.parquet",
+     "parquet_bytes": 2681121,
+     "parquet_sha256": "eb21996056bdb57e384fa5148d676f9785c47934e8b6eedbf4e6db1000dfb385"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:Mixed",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 136955632,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230904_051013-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "bc6c1fecd604ed5b89e3a36df0851aff",
+   "zenodo_file_id": "4065a8ef-c091-4cac-ba49-5faf00e4e52e"
+  },
+  {
+   "analysis_groups_available": [
+    "C00:IMRPhenomXO4a",
+    "C00:IMRPhenomXPHM-SpinTaylor",
+    "C00:Mixed",
+    "C00:Mixed+XO4a",
+    "C00:SEOBNRv5PHM",
+    "history",
+    "version"
+   ],
+   "event": "GW230911_195324",
+   "extracted_utc": "2026-06-11T02:13:06Z",
+   "extractions": [
+    {
+     "columns_extracted": [
+      "mass_1_source",
+      "mass_2_source",
+      "chirp_mass_source",
+      "total_mass_source",
+      "mass_ratio",
+      "redshift",
+      "luminosity_distance",
+      "comoving_distance",
+      "a_1",
+      "a_2",
+      "tilt_1",
+      "tilt_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "chi_eff",
+      "chi_p"
+     ],
+     "columns_wanted_missing": [],
+     "group_keys": [
+      "meta_data",
+      "posterior_samples"
+     ],
+     "group_used": "C00:Mixed",
+     "has_priors_group": false,
+     "n_samples": 37190,
+     "parquet": "data/derived/o4a_pe/GW230911_195324__C00_Mixed.parquet",
+     "parquet_bytes": 3215892,
+     "parquet_sha256": "b5c965e7e81bd027316889d47cffff203549f501b843b6c41ed615453467f493"
+    }
+   ],
+   "fallback_group_used": null,
+   "in_lvk_bbh_cut": true,
+   "lvk_population_pe_label": "C00:Mixed",
+   "prereg_locked_at_acquisition": true,
+   "source_bytes": 131073766,
+   "source_file": "IGWN-GWTC4p0-0f954158d_720-GW230911_195324-combined_PEDataRelease.hdf5",
+   "source_md5_verified": "b585a3cdc9a946441412f16568338668",
+   "zenodo_file_id": "d66a340f-2da8-451b-903a-15241b119242"
+  }
+ ],
+ "policy": "BLIND PRE-LOCK ACQUISITION (amended firewall, 2026-06-10): column subsets extracted mechanically; raw HDF5 deleted; no statistic of any sample value computed, printed, or plotted; no predictive score before PRE_REGISTRATION.md locks.",
+ "record": "16053484"
+}
